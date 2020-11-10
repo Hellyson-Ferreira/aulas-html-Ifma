@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #282A36;
+    background-image: url(thumb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#principal,#top,header{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#principal,header{
+    width: 80%;
+    padding: 16px;   
+}
+header{
+    background: #282A36;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 0px 4px ;
+    
+}
+header> a > img{
+    width: 40px;
+}
+
+
+nav {
+
+    /* background:darkcyan; */
+    width:80%;
+    float:right;	
+    border-radius: 10px;		
+}
+
+nav > ul {
+    list-style: none;
+
+}
+
+nav > ul  li {
+    /* background-color: #50FA7B; */
+    display: inline-block;
+    width: 15%;						
+    text-align: center;
+    position: relative;
+}
+
+nav > ul  li  a {
+    
+    display: block;
+    padding:8px 16px;
+    font:bold 14px verdana;
+    text-decoration: none;
+    color:white;
+    
+    
+    
+}
+
+nav > ul  li  a:hover {
+    border-radius: 10px;
+    /* background: cyan; */
+    color:#50FA7B;
+    text-decoration: underline;
+    
+}
+
+nav > ul > li > ul {
+   
+    position: absolute;
+    top:32px;
+    left:-20%;
+    display: none;
+    width:100%;
+    
+}
+
+nav > ul > li > ul > li {
+    box-shadow: 0px 0px 10px  #282A36;
+    float:none;
+    width: 100%;
+    /* background-color: #383A59; */
+    background-color: #282A36;
+    
+}nav > ul > li > ul > li> a:hover{
+    color: #FCB86B;
+}
+
+nav > ul > li > ul > li a {
+    color:white;
+}
+
+nav > ul > li > a:hover + ul { 
+    display: block;
+}
+
+nav > ul > li > ul:hover { 
+    display: block;
+}
+
+/*//////////////////////////////*/
+#top{
+    display: flex;
+}
+
+#principal {
+    background-color: #383A59;  
+}
+
+
+img#foto {
+
+    height: 400px;
+
+    border-radius: 50%;
+}
+#contato {
+    margin-left: 5%;
+    width:100%;
+}
+
+a.email{
+    color: white;
+    text-decoration:none; 
+}
+a.email:hover{
+    color: #FCB86B;
+}
+h1{
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 0%;
+    font-family: 'Abril Fatface', cursive;
+}
+#contato>p{
+    color: #8BE9FD;
+    font-weight: 700;
+    font-size:20px;
+}
+
+#objetivos{
+    text-align: justify;
+}
+h1,h2 {
+    color: #50FA7B;
+}
+h3{
+    color: #8BE9FD;
+}
+h1,h2 h3{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+p,li,dd{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+
+
+}
+
+dl{
+    margin-left: 20px;
+}
